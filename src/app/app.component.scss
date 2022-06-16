@@ -14,22 +14,13 @@ nav {
   position: relative;
   min-height: 100vh;
   padding-top: 6rem;
+  color: #fff;
   z-index: 1;
-  background-color: #feed0a;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: -25px;
-    left: 0;
-    width: 100%;
-    height: 220px;
-    z-index: -1;
-    background: url("../assets/images/bg.png");
-  }
+  background: url("../assets/images/bg.jpg");
+  background-size: cover;
 
   .highlight {
-    color: #ff1f49;
+    color: #feed0a;
   }
 
   h1 {
@@ -38,11 +29,12 @@ nav {
 
   a {
     height: 40px;
-    border: 2px solid #000;
+    color: #fff;
+    border: 2px solid #fff;
 
     &:hover {
-      color: #fff;
-      background-color: #000;
+      color: #000;
+      background-color: #fff;
     }
   }
 }
